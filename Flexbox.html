@@ -1,0 +1,113 @@
+<html>
+    <body>
+        <style>
+            @media(min-width: 600px){
+                .container-1 { 
+                    display: flex;
+                    /* flex-direction: column;
+                    align-items: center; */
+                }
+
+                .container-2 {
+                    display: flex;
+                    justify-content: space-between;
+                }
+            }
+            .container-3 {
+                display: flex;
+                /* flex-flow: wrap; */
+                flex-wrap:wrap;
+            }
+            
+            .container-1 div, .container-2 div, .container-3 div{
+                border: 1px solid #ccc;
+                padding: 10px;
+            }
+            .box-1 {
+                flex: 2;
+                order: 2;
+            }
+            .box-2 {
+                flex: 1;
+                order: 1;
+            }
+            .box-3 {
+                flex: 1;
+                order: 3;
+            }
+            .container-2-box{
+                flex-basis: 20%;
+            }
+            /* 有疑问 */
+            .container-3-box{
+                width:200px;
+            }
+        </style>
+        <div class="container-1">
+            <div class="box-1">
+                <h3>Box One</h3>
+                <p>Our comprehensive guide to CSS flexbox layout. This complete guide explains everything about flexbox, focusing on all the different possible properties for the parent element (the flex container) and the child elements (the flex items). It also includes history, demos, patterns, and a browser support chart.</p>
+            </div>
+            <div class="box-2">
+                <h3>Box Two</h3>
+                <p>This defines a flex container; inline or block depending on the given value. It enables a flex context for all its direct children.</p>
+            </div>
+            <div class="box-3">
+                <h3>Box Three</h3>
+                <p>This is all.</p>
+            </div>
+        </div>
+        <div class="container-2">
+            <div class="container-2-box">
+                <h3>Box 4</h3>
+                <p>This defines a flex container; inline or block depending on the given value. It enables a flex context for all its direct children.</p>
+            </div>
+            <div class="container-2-box">
+                <h3>Box 5</h3>
+                <p>This defines a flex container; inline or block depending on the given value. It enables a flex context for all its direct children.</p>
+            </div>
+            <div class="container-2-box">
+                <h3>Box 6</h3>
+                <p>This is all.</p>
+            </div>
+            <div class="container-2-box">
+                <h3>Box 7</h3>
+                <p>This defines a flex container; inline or block depending on the given value. It enables a flex context for all its direct children.</p>
+            </div>
+        </div>
+        <div class="container-3">
+            <div class="container-3-box">
+                <h3>Box 8</h3>
+                <p>This defines a flex container; inline or block depending on the given value. It enables a flex context for all its direct children.</p>
+            </div>
+            <div class="container-3-box">
+                <h3>Box 9</h3>
+                <p>This defines a flex container; inline or block depending on the given value. It enables a flex context for all its direct children.</p>
+            </div>
+            <div class="container-3-box">
+                <h3>Box 10</h3>
+                <p>This defines a flex container; inline or block depending on the given value. It enables a flex context for all its direct children.</p>
+            </div>
+            <div class="container-3-box">
+                <h3>Box 11</h3>
+                <p>This defines a flex container; inline or block depending on the given value. It enables a flex context for all its direct children.</p>
+            </div>
+            <div class="container-3-box">
+                <h3>Box 8</h3>
+                <p>This defines a flex container; inline or block depending on the given value. It enables a flex context for all its direct children.</p>
+            </div>
+            <div class="container-3-box">
+                <h3>Box 9</h3>
+                <p>This defines a flex container; inline or block depending on the given value. It enables a flex context for all its direct children.</p>
+            </div>
+            <div class="container-3-box">
+                <h3>Box 10</h3>
+                <p>This defines a flex container; inline or block depending on the given value. It enables a flex context for all its direct children.</p>
+            </div>
+            <div class="container-3-box">
+                <h3>Box 11</h3>
+                <p>This defines a flex container; inline or block depending on the given value. It enables a flex context for all its direct children.</p>
+            </div>
+        </div>
+    </body>
+</html>
