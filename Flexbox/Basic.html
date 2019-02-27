@@ -3,21 +3,29 @@
         <style>
             .box {
                 display: flex;
+                /* flex-direction: row-reverse;
+                flex-direction: column;
+                flex-direction: column-reverse;
+                flex-wrap: wrap; */
             }
             .box div {
                 border: 1px solid blue;
                 padding: 10px;
+                width:500px;
+            }
+            .box-1 {
+                flex-shrink: 4;
             }
         </style>
         <div class="box">
-            <div>One</div>
+            <div class="box-1">One</div>
             <div>Two</div>
             <div>Three
-                <br />has
+                <!-- <br />has
                 <br />extra
-                <br />text
+                <br />text -->
             </div>
-            <div>This is good!</div>
+            <!-- <div>This is good!</div> -->
         </div>
     </body>
 </html>
